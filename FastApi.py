@@ -43,7 +43,7 @@ async def load_model():
     global model, encoders
     try:
         # Update this path to your actual model path
-        path_model = 'C:/Users/TheBridge/Desktop/nombre_proyecto_final_ML-1/models'
+        path_model = 'C:/Users/TheBridge/Desktop/FastAPI_ML/models'
         file_name = 'xgb_final_model.pkl'
         model_path = os.path.join(path_model, file_name)
         
