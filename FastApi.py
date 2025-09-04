@@ -34,7 +34,7 @@ class HealthResponse(BaseModel):
     message: str
 
 # Global variables for model and encoders
-model = 'C:/Users/TheBridge/Desktop/FastAPI_ML/models'
+model = 'https://github.com/IEG-hub/FastAPI_ML/tree/main/models'
 encoders = None
 
 # Load model on startup
@@ -43,7 +43,7 @@ async def load_model():
     global model, encoders
     try:
         # Update this path to your actual model path
-        path_model = 'C:/Users/TheBridge/Desktop/FastAPI_ML/models'
+        path_model = 'https://github.com/IEG-hub/FastAPI_ML/tree/main/models'
         file_name = 'xgb_final_model.pkl'
         model_path = os.path.join(path_model, file_name)
         
